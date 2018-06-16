@@ -51,8 +51,6 @@ BinarySearchTree.methods.depthFirstLog = function(cb) {
   if (this.right) {
     this.right.depthFirstLog(cb);
   }
-  
-  return undefined;
 };
 
 
